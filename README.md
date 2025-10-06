@@ -150,12 +150,12 @@ SCORM (standalone): cmi.core.lesson_status = passed
 Para testar em ambiente real:
 
 1. Compactei todos os arquivos em `curso-scorm.zip`
-2. Acessei Moodle como administrador/professor
-3. Adicionei atividade do tipo "Pacote SCORM"
-4. Fiz upload do arquivo .zip
-5. Configurei as opções de rastreamento
-6. Lancei o curso e completei o quiz
-7. Verifiquei o registro de notas no gradebook do Moodle
+2. Acesse Moodle como administrador/professor
+3. Adicione atividade do tipo "Pacote SCORM"
+4. Faça upload do arquivo .zip
+5. Configure as opções de rastreamento
+6. Lance o curso e complete o quiz
+7. Verifique o registro de notas no gradebook do Moodle
 
 **Resultado Esperado:**
 - Status: "Concluído" ou "Aprovado/Reprovado"
@@ -291,20 +291,10 @@ unzip -l curso-scorm.zip
 
 **Solução**: Verifique conexão com internet. As imagens são carregadas da Unsplash via CDN.
 
-## 📝 Melhorias Futuras
-
-- Migração para SCORM 2004 (suporte a sequenciamento avançado)
-- Implementação de banco de questões dinâmico
-- Sistema de certificados em PDF
-- Analytics detalhado de tempo por questão
-- Suporte a múltiplos idiomas (i18n)
-- Modo offline com Service Workers
-- Integração com xAPI (Tin Can API)
-
 ## 👨‍💻 Autor
 
 **João Vitor**  
-Desenvolvedor Full Stack especializado em soluções educacionais e plataformas LMS.
+Desenvolvedor Full Stack.
 
 ### Competências Demonstradas
 
@@ -321,5 +311,5 @@ Este projeto foi desenvolvido como parte de um processo seletivo para vaga de es
 ---
 
 **Data de Conclusão**: Outubro de 2025  
-**Versão**: 1.0.0  
+**Versão**: 0.0.1 
 **Compatibilidade**: SCORM 1.2 | Moodle 3.x+ | Navegadores modernos (Chrome, Firefox, Safari, Edge)
