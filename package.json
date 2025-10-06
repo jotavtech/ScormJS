@@ -1,0 +1,36 @@
+{
+  "name": "curso-scorm-interativo",
+  "version": "1.0.0",
+  "description": "Curso SCORM interativo com React, design glassmorphism e integração completa com LMS",
+  "main": "index.html",
+  "scripts": {
+    "package": "zip -r curso-scorm.zip imsmanifest.xml index.html scorm-api.js app.js styles.css",
+    "test": "echo 'Abra index.html no navegador para testar localmente'",
+    "validate": "echo 'Valide o pacote em https://cloud.scorm.com/'"
+  },
+  "keywords": [
+    "scorm",
+    "e-learning",
+    "lms",
+    "moodle",
+    "react",
+    "glassmorphism",
+    "dark-mode",
+    "quiz",
+    "educacional"
+  ],
+  "author": "João Vitor",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@babel/standalone": "^7.0.0"
+  },
+  "scorm": {
+    "version": "1.2",
+    "identifier": "com.scormcourse.modern",
+    "masteryScore": 60
+  }
+}
